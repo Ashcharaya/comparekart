@@ -1,0 +1,25 @@
+{
+  "name": "comparekart",
+  "version": "1.0.0",
+  "description": "CompareKart - Flipkart-style smart product comparison & recommendation platform (MERN)",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "c:build": "gcc -Wall -O2 c_engine/comparekart.c -o c_engine/comparekart.exe",
+    "c:run": "c_engine\\comparekart.exe"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "comparison",
+    "recommendation",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "ISC"
+}
